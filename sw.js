@@ -35,19 +35,19 @@ const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 const APP_SHELL = [
     '/',
-    'index.html',
-    'css/style.css',
-    'images/icon1.ico',
-    'images/avs/user1.png',
-    'images/avs/user2.png',
-    'js/app.js',
-    'js/sw-acces.js'
+    './index.html',
+    './css/style.css',
+    './images/icon1.ico',
+    './images/avs/user1.png',
+    './images/avs/user2.png',
+    './js/app.js',
+    './js/sw-acces.js'
 ];
 const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css',
-    'js/libs/jquery.js'
+    './js/libs/jquery.js'
 ];
 
 
